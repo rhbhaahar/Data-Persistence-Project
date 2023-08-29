@@ -51,6 +51,7 @@ public class MainManager1 : MonoBehaviour
             data.highestScore = score;
             data.recordName = currentName;
             highestScore = score;
+            recordName = currentName;
 
             string json = JsonUtility.ToJson(data);
 
