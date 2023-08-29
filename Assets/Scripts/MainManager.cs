@@ -59,7 +59,7 @@ public class MainManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                BestScoreText.text = $"Best Score: {MainManager1.Instance.recordName} : {MainManager1.Instance.highestScore}";
+                BestScoreText.text = $"Best Score: {MainManager1.Instance.currentName} : {MainManager1.Instance.highestScore}";
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
